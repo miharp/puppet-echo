@@ -1,0 +1,71 @@
+{
+  "name": "miharp-echo",
+  "version": "1.0.0-rc0",
+  "author": "Michael Harp",
+  "summary": "Logs a message on the agent without reporting a change",
+  "license": "Apache-2.0",
+  "source": "https://github.com/miharp/puppet-echo",
+  "project_page": "https://github.com/miharp/puppet-echo",
+  "issues_url": "https://github.com/miharp/puppet-echo/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "22.04",
+        "24.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "openvox",
+      "version_requirement": ">= 8.19.0 < 10.0.0"
+    }
+  ],
+  "tags": [
+    "echo",
+    "notify",
+    "log",
+    "message",
+    "openvox"
+  ]
+}
